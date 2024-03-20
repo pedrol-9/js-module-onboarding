@@ -95,7 +95,7 @@ console.log(fruits[6]);
 /* Use a prompt ( ) that allows the entry of an age on the screen and compare it with the number 18, once this is done, save the result in a variable called IamAdult and display a message in the console that says:
 "I am an adult" (and the value of the variable). */
 
-/* let userAge = prompt("Please, put in your age");
+let userAge = prompt("Please, put in your age");
 let userInput = userAge.trim();
 let parsedInput = parseInt(userInput);
 let userAgeValidation = parsedInput >= 18;
@@ -112,7 +112,7 @@ if (userAgeValidation) {
   console.log(`I am an adult, I am ${adultUser}`);
 } else {
   console.log("sorry, grow up and come back");
-} */
+}
 
 /* Create an array called "numbers" with a minimum of 5 elements and display the entire array and each of the elements separately in the console. */
 
