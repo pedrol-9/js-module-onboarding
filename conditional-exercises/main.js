@@ -228,20 +228,20 @@ if (person1.age > person2.age && person1.height > person2.height) {
 // Measure more than 110 cm.
 // Have a vision of at least 8 out of 10.
 // Tip! Remember prompt( ) to enter data on the screen.
-/* let userName = prompt("enter your name");
+let userName = prompt("enter your name");
 let userAge = parseInt(prompt("enter your age"));
 let userHeight = parseInt(prompt("enter your height in cms"));
 let userVisionQuality = prompt("qualify your vision from 1 to 10");
 
 let userInputsValidation =
-  userAge >= 18 && userHeight >= 110 && userVisionQuality >= 8; // typeof: boolean.
+   userAge >= 18 && userHeight >= 110 && userVisionQuality >= 8; // typeof: boolean.
 
 if (userInputsValidation) {
-  console.log(`Congrats ${userName}! You are qualified to drive`);
+   console.log(`Congrats ${userName}! You are qualified to drive`);
 } else {
-  console.log(`Sorry ${userName}! You're not eligible to get the driver pass`);
+   console.log(`Sorry ${userName}! You're not eligible to get the driver pass`);
 }
- */
+
 
 // Create a program that allows you to enter your age on the screen and print it on the screen if you are:
 // infant (0 to 12 years)
@@ -250,19 +250,19 @@ if (userInputsValidation) {
 // elderly (over 45 years)
 // Is he really that old? (more than 100 show)
 // Tip! Remember alert( ) to display data on the screen.
-/* let userAge = parseInt(prompt("please enter your age"));
+let userAge1 = parseInt(prompt("please enter your age"));
 
-if (userAge <= 12) {
-  alert("infant");
-} else if (userAge > 12 && userAge <= 18) {
-  alert("adolescent");
-} else if (userAge > 18 && userAge <= 45) {
-  alert("older young");
-} else if (userAge > 45 && userAge <= 100) {
-  alert("elderly");
+if (userAge1 <= 12) {
+   alert("infant");
+} else if (userAge1 > 12 && userAge1 <= 18) {
+   alert("adolescent");
+} else if (userAge1 > 18 && userAge1 <= 45) {
+   alert("older young");
+} else if (userAge1 > 45 && userAge1 <= 100) {
+   alert("elderly");
 } else {
-  alert("are you really that old?");
-} */
+   alert("are you really that old?");
+}
 
 // Create a program that allows you to enter only numbers from 1 to 3 on the screen and then any other numerical data. Print on screen:
 // 1: “The number entered is [ ]”
@@ -271,21 +271,21 @@ if (userAge <= 12) {
 // another: “That value is not allowed”
 // Tip! Remember alert( ) to display data on the screen.
 
-/* let userNumber = parseFloat(prompt("please enter a number from 1 to 3"));
+let userNumber = parseFloat(prompt("please enter a number from 1 to 3"));
 let userInputVal =
-  !isNaN(userNumber) &&
-  Number.isInteger(userNumber) &&
-  userNumber >= 1 &&
-  userNumber <= 3;
+   !isNaN(userNumber) &&
+   Number.isInteger(userNumber) &&
+   userNumber >= 1 &&
+   userNumber <= 3;
 
 if (userInputVal) {
-  alert(`The number entered is [${userNumber}]`);
-  alert(`Twice the number entered is [${userNumber * 2}]`);
-  alert(`Three times the number entered is [${userNumber * 3}]`);
+   alert(`The number entered is [${userNumber}]`);
+   alert(`Twice the number entered is [${userNumber * 2}]`);
+   alert(`Three times the number entered is [${userNumber * 3}]`);
 } else {
-  alert("That value is not allowed");
+   alert("That value is not allowed");
 }
- */
+
 /* *** Explicación de la expresión: !isNaN(userNumber) && Number.isInteger(userNumber) ***
 
 !isNaN(num): isNaN() es una función en JavaScript que se utiliza para verificar si un valor no es un número. Devuelve true si el valor proporcionado no es un número, de lo contrario devuelve false. Sin embargo, el operador ! antes de isNaN(num) invierte este resultado. Entonces, !isNaN(num) devuelve true si num es un número válido y false si no lo es.
@@ -301,7 +301,6 @@ let custName = prompt("enter your name").trim();
 let custPass = confirm("You're a VIP customer, is this true?");
 let custBuy;
 let custBudget;
-
 let useTicket;
 
 // People who have your name ==> show a welcome message // or VIP pass ==> show a welcome message
