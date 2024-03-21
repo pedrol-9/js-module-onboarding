@@ -7,24 +7,24 @@ let num1 = 4;
 let num2 = 5;
 
 if (num1 > num2) {
-  console.log(num1);
+   console.log(num1);
 } else {
-  console.log(num2); // output: 5
+   console.log(num2); // output: 5
 }
 
 // Based on exercise 1, now modify the block as follows:
 // If num1 is greater than num2, print num1 through the console,
 if (num1 > num2) {
-  console.log(num2);
+   console.log(num2);
 } else {
-  console.log(num1); // output: 4
+   console.log(num1); // output: 4
 }
 
 // if num2 is greater, print num2 and finally
 if (num1 > num2) {
-  console.log(num1);
+   console.log(num1);
 } else {
-  console.log(num2); // output: 5
+   console.log(num2); // output: 5
 }
 
 // if they are equal, print a string that says “The numbers are equal”
@@ -32,15 +32,15 @@ num1 = 8;
 num2 = 8;
 
 if (num1 === num2) {
-  console.log("The numbers are equal");
+   console.log("The numbers are equal");
 }
 
 // Based on exercise 1, create a conditional block that evaluates whether these variables are equal or not, if so, print a string through the console “The numbers are equal”, otherwise “The numbers are different”.
 
 if (num1 === num2) {
-  console.log("The numbers are equal");
+   console.log("The numbers are equal");
 } else {
-  console.log("The numbers are different");
+   console.log("The numbers are different");
 }
 
 // Starting from the following example, create a conditional block that evaluates whether one of these variables is greater than the other; if so, display “The date [variable 1] is greater than [variable 2]” by console, and, If they are the same, print “The dates are the same”
@@ -52,30 +52,30 @@ let dateComparison = date1 > date2;
 // console.log(dateComparison); // output: false
 
 if (date1 > date2) {
-  console.log(`The date ${date1} is greater than the date ${date2}`);
+   console.log(`The date ${date1} is greater than the date ${date2}`);
 } else if (date1 === date2) {
-  console.log(`Both dates are the same`);
+   console.log(`Both dates are the same`);
 } else {
-  console.log(`The date ${date2} is greater than the date ${date1}`);
+   console.log(`The date ${date2} is greater than the date ${date1}`);
 } // Output: The date 2023-7-5 (date2) is greater than the date 2018-9-2 (date1).
 
 date1 = new Date("2018-9-2");
 date2 = new Date("2023-7-5");
 
 if (date1.getTime() > date2.getTime()) {
-  console.log(`The date ${date1} is greater than the date ${date2}`);
+   console.log(`The date ${date1} is greater than the date ${date2}`);
 } else if (date1 === date2) {
-  console.log(`Both dates are the same`);
+   console.log(`Both dates are the same`);
 } else {
-  console.log(`The date ${date2} is greater than the date ${date1}`);
+   console.log(`The date ${date2} is greater than the date ${date1}`);
 } // Output: The date Wed Jul 05 2023 00:00:00 GMT-0500 (hora estándar de Colombia) is greater than the date Sun Sep 02 2018 00:00:00 GMT-0500 (hora estándar de Colombia) *** So, in conclusion the date 1 is greater than the date2 because it's taking the period of time transcurred as point of correlation.
 
 if (date1.getDate() > date2.getDate()) {
-  console.log(`The date ${date1} is greater than the date ${date2}`);
+   console.log(`The date ${date1} is greater than the date ${date2}`);
 } else if (date1 === date2) {
-  console.log(`Both dates are the same`);
+   console.log(`Both dates are the same`);
 } else {
-  console.log(`The date ${date2} is greater than the date ${date1}`);
+   console.log(`The date ${date2} is greater than the date ${date1}`);
 } // Output: The date Wed Jul 05 2023 00:00:00 GMT-0500 (hora estándar de Colombia) is greater than the date Sun Sep 02 2018 00:00:00 GMT-0500 (hora estándar de Colombia)
 
 // The date 2023-7-5 is greater than the date 2018-9-2
@@ -88,15 +88,15 @@ date1 = "2021-8-10";
 date2 = "2017-3-15";
 
 if (date1 > date2) {
-  console.log(
-    `The date ${date1} (date1) is greater than the date ${date2} (date2)`
-  );
+   console.log(
+      `The date ${date1} (date1) is greater than the date ${date2} (date2)`
+   );
 } else if (date1 === date2) {
-  console.log(`Both dates are the same`);
+   console.log(`Both dates are the same`);
 } else {
-  console.log(
-    `The date ${date2} (date2) is greater than the date ${date1} (date1)`
-  );
+   console.log(
+      `The date ${date2} (date2) is greater than the date ${date1} (date1)`
+   );
 } // The date 2021-8-10 (date1) is greater than the date 2017-3-15 (date2)
 
 // if (date1.getDate() > date2.getDate()) {
@@ -114,13 +114,13 @@ let number2 = 7;
 let number3 = 9;
 
 if (number1 > number2 && number1 > number3) {
-  console.log(`The number [${number1}] is the largest`);
+   console.log(`The number [${number1}] is the largest`);
 } else if (number2 > number1 && number2 > number3) {
-  console.log(`The number [${number2}] is the largest`);
+   console.log(`The number [${number2}] is the largest`);
 } else if (number3 > number1 && number3 > number2) {
-  console.log(`The number [${number3}] is the largest`);
+   console.log(`The number [${number3}] is the largest`);
 } else {
-  console.log(`Two or more variables has the same largest value`);
+   console.log(`Two or more variables has the same largest value`);
 }
 
 // Difficulty Level: Medium ************************
@@ -185,15 +185,15 @@ switch (operation) {
 // Which is the oldest?
 // Tip! You can use nested if or logical operators.
 let person1 = {
-  personName: "Juan",
-  age: 39,
-  height: 1.69,
+   personName: "Juan",
+   age: 39,
+   height: 1.69,
 };
 
 let person2 = {
-  personName: "Pepito",
-  age: 42,
-  height: 1.65,
+   personName: "Pepito",
+   age: 42,
+   height: 1.65,
 };
 
 /* let olderPerson = person1.age > person2.age;
@@ -201,23 +201,23 @@ console.log(typeof olderPerson); // Output:
 console.log(olderPerson); // Output: */
 // ${}
 if (person1.age > person2.age && person1.height > person2.height) {
-  console.log(
-    `${person1.personName} (person1) is older than ${person2.personName} (person2), as well as the tallest one.`
-  );
+   console.log(
+      `${person1.personName} (person1) is older than ${person2.personName} (person2), as well as the tallest one.`
+   );
 } else if (person2.age > person1.age && person2.height > person1.height) {
-  console.log(
-    `${person2.personName} (person2) is older than ${person1.personName} (person1), as well as the tallest one.`
-  );
+   console.log(
+      `${person2.personName} (person2) is older than ${person1.personName} (person1), as well as the tallest one.`
+   );
 } else if (person1.age > person2.age && person2.height > person1.height) {
-  console.log(
-    `${person1.personName} (person1) is older than ${person2.personName} (person2), but also the tiniest.`
-  );
+   console.log(
+      `${person1.personName} (person1) is older than ${person2.personName} (person2), but also the tiniest.`
+   );
 } else if (person2.age > person1.age && person1.height > person2.height) {
-  console.log(
-    `${person2.personName} (person2) is older than ${person1.personName} (person1), but also the tiniest.`
-  );
+   console.log(
+      `${person2.personName} (person2) is older than ${person1.personName} (person1), but also the tiniest.`
+   );
 } else {
-  console(`seems both people look alike`);
+   console(`seems both people look alike`);
 } // output: Pepito (person2) is older than Juan (person1), but also the tiniest.
 
 // Create a program that allows you to enter on the screen:
@@ -271,7 +271,7 @@ if (userAge <= 12) {
 // another: “That value is not allowed”
 // Tip! Remember alert( ) to display data on the screen.
 
-let userNumber = parseFloat(prompt("please enter a number from 1 to 3"));
+/* let userNumber = parseFloat(prompt("please enter a number from 1 to 3"));
 let userInputVal =
   !isNaN(userNumber) &&
   Number.isInteger(userNumber) &&
@@ -285,7 +285,7 @@ if (userInputVal) {
 } else {
   alert("That value is not allowed");
 }
-
+ */
 /* *** Explicación de la expresión: !isNaN(userNumber) && Number.isInteger(userNumber) ***
 
 !isNaN(num): isNaN() es una función en JavaScript que se utiliza para verificar si un valor no es un número. Devuelve true si el valor proporcionado no es un número, de lo contrario devuelve false. Sin embargo, el operador ! antes de isNaN(num) invierte este resultado. Entonces, !isNaN(num) devuelve true si num es un número válido y false si no lo es.
@@ -295,16 +295,73 @@ Number.isInteger(num): Number.isInteger() es un método estático del objeto Num
 num: Es el valor que se está evaluando para determinar si es un número entero. */
 
 // Create a program that allows the following data to be entered on the screen:
-let customer = prompt("enter your name");
-let custPass = confirm("You're a VIP customer, is this true?");
 // Customer name, Pass (vip or normal), Entrance (yes or no).
-// People who have your name ==> show a welcome message
-// or VIP pass ==> show a welcome message
-// If you have a ticket, ask if you want to use it
-// If affirmative ==> show a welcome message
-// If negative ==> show farewell message
-// And finally in case of not having the same name or VIP pass or entry, ask "do you want to buy?". And in case:
-// negative ==> show farewell message
-// affirmative ==> ask for available money, in case:
-// More than 1000 ==> show a successful sale and welcome message
-// Less than 1000 ==> show sales rejection message
+let ceoName = "Pedro";
+let custName = prompt("enter your name").trim();
+let custPass = confirm("You're a VIP customer, is this true?");
+let custBuy;
+let custBudget;
+
+let useTicket;
+
+// People who have your name ==> show a welcome message // or VIP pass ==> show a welcome message
+if (custName === ceoName || custPass) {
+   alert(`Dear ${custName} have a special welcome on behalf of our CEO Pedro S. Remember you are a winner!`);
+   let custTicket = confirm("You have a ticket, is that right?");
+   if (custTicket) {
+      useTicket = confirm(`Dear, ${custName} you want to use that ticket right now?`);
+      // If affirmative ==> show a welcome message
+      if (useTicket) {
+         alert(`Dear, ${custName} welcome again and, let me connect you to an assosiate for further help.`);
+      } else {
+         // If negative ==> show farewell message
+         // alert(`Dear, ${custName} thanks for reaching us, good bye!`);
+         custBuy = confirm(`You're welcome dear ${custName}, you want to buy in the online store?`);
+         if (custBuy) {
+            custBudget = parseInt(prompt("May I please know your budget today?"));
+            if (_custBudget => 1000) {
+               // More than 1000 ==> show a successful sale and welcome message
+               alert(`Dear, ${custName} you are so very welcome today to our store, hope you spend all your money today with us.`);
+            } else if (custBudget <= 1000) {
+               // Less than 1000 ==> show sales rejection message
+               alert(`Dear, ${custName} you are so very Poor, I highly recommend you to go purchase in walmart.`);
+            }
+         } else {
+            // negative ==> show farewell message
+            alert(`Dear, ${custName} thanks for coming today, bye!`);
+         }
+      }
+   } else {
+      // If negative ==> show farewell message
+      alert(`Dear, ${custName} thanks for reaching us, good bye!`);
+      custBuy = confirm(`You're welcome dear ${custName}, you want to buy in the online store?`);
+      if (custBuy) {
+         custBudget = parseInt(prompt("May I please know your budget today?"));
+         if (_custBudget => 1000) {
+            // More than 1000 ==> show a successful sale and welcome message
+            alert(`Dear, ${custName} you are so very welcome today to our store, hope you spend all your money today with us.`);
+         } else {
+            // Less than 1000 ==> show sales rejection message
+            alert(`Dear, ${custName} you are so very Poor, I highly recommend you to go purchase in walmart.`);
+         }
+      } else {
+         // negative ==> show farewell message
+         alert(`Dear, ${custName} thanks for coming today, bye!`);
+      }
+   }
+} else {
+   custBuy = confirm(`You're welcome dear ${custName}, you want to buy in the online store?`);
+   if (custBuy) {
+      custBudget = parseInt(prompt("May I please know your budget today?"));
+      if (_custBudget => 1000) {
+         // More than 1000 ==> show a successful sale and welcome message
+         alert(`Dear, ${custName} you are so very welcome today to our store, hope you spend all your money today with us.`);
+      } else {
+         // Less than 1000 ==> show sales rejection message
+         alert(`Dear, ${custName} you are so very Poor, I highly recommend you to go purchase in walmart.`);
+      }
+   } else {
+      // negative ==> show farewell message
+      alert(`Dear, ${custName} thanks for coming today, bye!`);
+   }
+}
