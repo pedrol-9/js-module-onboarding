@@ -195,7 +195,7 @@ Once all the data were verified, the function must save all that data in an obje
 To finish, the function must be called/executed and tested with different values. */
 let userInformation = {};
 
-function personalInfo(pInfo) {
+function personalInfo() {
    let userName = prompt("type down your name");
    if (userName == "") {
       console.error("The name cannot be empty");
@@ -243,6 +243,4 @@ function present() {
 }
 
 present();
-
-
 
