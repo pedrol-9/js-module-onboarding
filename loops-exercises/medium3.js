@@ -5,15 +5,13 @@ Ding Dong, Ding Dong, Ding Dong, Ding Dong, Ding Dong
 
 */
 
+let userInput = parseInt(prompt("Inserte un número"));
+
 function RingBell() {
     console.log("Ding Dong");
     return "Ding Dong";
 }
 
-let dinDong = "";
-let userInput = parseInt(prompt("inserte un número del 1 al 10"));
-
-
 for (let i = 1; i <= userInput; i++) {
-    dinDong += "Ding Dong" + RingBell();
+    RingBell();
 }

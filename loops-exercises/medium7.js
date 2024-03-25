@@ -12,4 +12,4 @@ let numbers = [15, 20, 80, 95, 72];
 
 for (const number of numbers) {
     console.log(`the number is ${number} and it double is ${number * 2}`);
-}
+} // todo correcto

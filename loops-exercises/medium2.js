@@ -7,8 +7,7 @@ Tip! remember or investigate the operator % */
 
 let userInput = parseInt(prompt("Inserte un número del 1 al 100 por favor"));
 
-console.log(userInput);
-
+console.log("your input was:" + " " + userInput);
 
 // Loop through numbers from 1 to the number itself
 for (let i = 1; i <= userInput; i++) {

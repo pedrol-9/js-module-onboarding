@@ -5,6 +5,7 @@ Tip! use backticks for this. */
 
 let userNumbers
 console.log(userNumbers) // Comprobar tipo de dato cuando se pica en cancelar = NaN.
+let sum = 0;
 
 /* DUDA EXISTENCIAL: porqué aún  NO cumple con la condición dada, se sigue ejecutando? Ni siquiera con un if que rompa cuando se den esas condiciones */
 do {
@@ -13,7 +14,7 @@ do {
     console.clear()
     console.log("la suma de los números ingresados es:" + sum)
 
-    if (userNumbers === 0 || userNumbers == NaN) {
+    if (userNumbers === 0 || userNumbers == null) {
         break;
     } // no se cumplen las condiciones
 } while (userNumbers != 0) // no se cumple la condición falsa
