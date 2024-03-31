@@ -4,13 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>DOM exercises</title>
 </head>
 
 <body>
     <h1>DOM exercises</h1>
-    <script src="./main.js"></script>
+    <table class="font-mono">
+        <thead class="text-white">
+            <tr class="bg-indigo-900">
+                <th class="border-2 border-white-900 border-dashed px-3.5">NAME:</th>
+                <th class="border-2 border-white-900 border-dashed px-3.5">ABV:</th>
+                <th class="border-2 border-white-900 border-dashed px-3.5">IBU:</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
 
+        </tbody>
+    </table>
+
+    <script src="./datos.js"></script>
+    <script src="./main.js"></script>
 </body>
 
 </html>
